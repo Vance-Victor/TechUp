@@ -6,5 +6,6 @@
         public string? StaffName { get; set; }
         public string? StaffEmail { get; set; }
         public string? StaffAddress { get; set; }
+        public Department? Department { get; set;}
     }
 }

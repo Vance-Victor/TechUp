@@ -1,10 +1,10 @@
 ﻿namespace TechUp.Models
 {
-    public class Organization
+    public class Department
     {
-        public int? OrganizationID{ get; set; }
-        public string? OrganizationName { get; set;}
-        public string? OrganizationEmail{ get; set;}
-        public string? OrganizationLocation{ get;}
+        public int? DepartmentID{ get; set; }
+        public string? DepartmentName{ get; set;}
+        public string? DepartmentEmail { get; set;}
+        public string? DepartmentLoocation{ get; set; }
     }
 }

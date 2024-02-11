@@ -1,10 +1,12 @@
 ﻿namespace TechUp.Models
 {
-    public interface IT_Solution
+    public class Task 
     {
-        public int? ITSolutionID { get; set; }
-        public string? ITSolutionBudget{ get; set; }
-        public string? ITSolutionType{ get; set;} 
-        public string? ITSolutionDescription { get; set;}
+        public int? TaskID{ get; set; }
+        public string? TaskBudget{ get; set; }
+        public string? TaskName{ get; set;} 
+        public string? TaskDescription { get; set;}
+        public Project Project { get; set;}
+        public Staff Staff { get; set;}
     }
 }
